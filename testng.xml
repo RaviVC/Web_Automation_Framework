@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+	<listener class-name = "com.org.commonUtils.ITestListenersManager"/>
+</listeners>
+  <test name="Test">
+  <parameter name = "env" value="stg"/>
+  <parameter name = "url" value="https://book.bluegreenvacations.com"/>
+    <classes>
+      <class name="com.org.testcase.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
