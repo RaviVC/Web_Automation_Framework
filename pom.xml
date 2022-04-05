@@ -12,9 +12,33 @@
 			<plugins>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-surefire-plugin</artifactId>
-					<version>3.0.0-M5</version>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.10.1</version>
+					<configuration>
+						<source>1.8</source>
+            			<target>1.8</target>
+					</configuration>
 				</plugin>
+
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>3.0.0-M6</version>
+					<configuration>
+
+						<!-- If we want to make pom.xml parameterized use( used for different 
+							pom.xml files) -->
+						<!-- Then use below parameterized line for suiteXMLfiles -->
+						<!-- <suiteXmlFile>${testngName}</suiteXmlFile> -->
+						<!-- Then use below maven command -->
+						<!-- mvn test -DtestngName="name of your testng.xml file" -->
+
+						<suiteXmlFiles>
+							<suiteXmlFile>testng.xml</suiteXmlFile>
+						</suiteXmlFiles>
+					</configuration>
+				</plugin>
+
 			</plugins>
 		</pluginManagement>
 	</build>

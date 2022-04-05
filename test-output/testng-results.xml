@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-01T23:05:40 IST" name="Suite" finished-at="2022-04-01T23:06:35 IST" duration-ms="55041">
+  <suite started-at="2022-04-04T23:01:49 IST" name="Suite" finished-at="2022-04-04T23:02:59 IST" duration-ms="69580">
     <groups>
     </groups>
-    <test started-at="2022-04-01T23:05:40 IST" name="Test" finished-at="2022-04-01T23:06:35 IST" duration-ms="55041">
+    <test started-at="2022-04-04T23:01:49 IST" name="Test" finished-at="2022-04-04T23:02:59 IST" duration-ms="69580">
       <class name="com.org.testcase.LoginTest">
-        <test-method is-config="true" signature="LaunchApplication(java.lang.String,java.lang.String)[pri:0, instance:com.org.testcase.LoginTest@77b14724]" started-at="2022-04-01T23:05:41 IST" name="LaunchApplication" finished-at="2022-04-01T23:06:31 IST" duration-ms="50282" status="PASS">
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String,java.lang.String)[pri:0, instance:com.org.testcase.LoginTest@2dbf4cbd]" started-at="2022-04-04T23:01:49 IST" name="LaunchApplication" finished-at="2022-04-04T23:02:54 IST" duration-ms="64907" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchApplication -->
-        <test-method signature="login1(java.lang.Object)[pri:0, instance:com.org.testcase.LoginTest@77b14724]" started-at="2022-04-01T23:06:31 IST" name="login1" data-provider="BG_TestData" finished-at="2022-04-01T23:06:31 IST" duration-ms="336" status="PASS">
+        <test-method signature="login1(java.lang.Object)[pri:0, instance:com.org.testcase.LoginTest@2dbf4cbd]" started-at="2022-04-04T23:02:54 IST" name="login1" data-provider="BG_TestData" finished-at="2022-04-04T23:02:54 IST" duration-ms="272" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login1 -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.org.testcase.LoginTest@77b14724]" started-at="2022-04-01T23:06:31 IST" name="TearDown" finished-at="2022-04-01T23:06:35 IST" duration-ms="4219" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.org.testcase.LoginTest@2dbf4cbd]" started-at="2022-04-04T23:02:54 IST" name="TearDown" finished-at="2022-04-04T23:02:59 IST" duration-ms="4237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
