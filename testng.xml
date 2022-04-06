@@ -6,7 +6,7 @@
 	<listener class-name = "com.org.commonUtils.ITestListenersManager"/>
 </listeners>
   <test name="Test">
-  <parameter name = "env" value="stg"/>
+  <parameter name = "env" value="${env}"/>
   <parameter name = "url" value="https://book.bluegreenvacations.com"/>
     <classes>
       <class name="com.org.testcase.LoginTest"/>

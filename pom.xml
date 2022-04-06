@@ -34,7 +34,8 @@
 						<!-- mvn test -DtestngName="name of your testng.xml file" -->
 
 						<suiteXmlFiles>
-							<suiteXmlFile>testng.xml</suiteXmlFile>
+							<!-- <suiteXmlFile>testng.xml</suiteXmlFile>-->
+							<suiteXmlFile>${testngName}</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
