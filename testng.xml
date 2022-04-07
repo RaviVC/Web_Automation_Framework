@@ -4,9 +4,11 @@
 
 <listeners>
 	<listener class-name = "com.org.commonUtils.ITestListenersManager"/>
+	<listener class-name = "com.org.listeners.TestRetryAnalyzerListener"/>
 </listeners>
   <test name="Test">
-  <parameter name = "env" value="${env}"/>
+  <!-- <parameter name = "env" value="${env}"/> -->
+  <parameter name = "env" value="stg"/>
   <parameter name = "url" value="https://book.bluegreenvacations.com"/>
     <classes>
       <class name="com.org.testcase.LoginTest"/>

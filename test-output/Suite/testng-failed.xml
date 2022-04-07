@@ -3,6 +3,7 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="com.org.commonUtils.ITestListenersManager"/>
+    <listener class-name="com.org.listeners.TestRetryAnalyzerListener"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <parameter name="env" value="stg"/>

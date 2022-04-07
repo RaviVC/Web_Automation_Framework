@@ -1,8 +1,6 @@
 package com.org.testcase;
 
-import java.io.IOException;
 import java.util.HashMap;
-
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

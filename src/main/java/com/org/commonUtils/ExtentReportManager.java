@@ -26,6 +26,11 @@ public class ExtentReportManager extends ObjectsRepo {
 		sparkReport.config().setTheme(Theme.DARK);
 		sparkReport.config().setReportName("ReportName");
 		
+		extent.setSystemInfo("Executed on Environment", "stg");
+		extent.setSystemInfo("Executed on Browser", "chrome");
+		extent.setSystemInfo("Executed on OS", System.getProperty("os.name"));
+		extent.setSystemInfo("Executed by user", System.getProperty("user.name"));
+		
 		return extent;
 	}
 

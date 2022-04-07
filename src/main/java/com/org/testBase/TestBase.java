@@ -9,7 +9,6 @@ import org.testng.annotations.Parameters;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.org.commonUtils.ActionEngine;
-import com.org.commonUtils.AppConfig;
 import com.org.commonUtils.AppConfigManger;
 
 public class TestBase extends ActionEngine {
